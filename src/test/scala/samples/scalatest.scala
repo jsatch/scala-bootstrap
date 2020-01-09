@@ -31,7 +31,7 @@ import org.junit.Test
 
 class StackSuite extends Assertions {
 
-  @Test def stackShouldPopValuesIinLastInFirstOutOrder() {
+  @Test def stackShouldPopValuesInLastInFirstOutOrder() {
     val stack = new Stack[Int]
     stack.push(1)
     stack.push(2)
